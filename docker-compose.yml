@@ -4,5 +4,3 @@ services:
   image: miverboven/python-db-test
   ports:
     - "8000:8000"
-  volumes:
-    - /code/app/sqlitedata.db:/code/app/sqlitedata.db
