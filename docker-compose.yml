@@ -5,7 +5,4 @@ services:
   ports:
     - "8000:8000"
   volumes:
-    - sqlitedatavolume/sqlitedata.db:/code/app/sqlitedata.db
-
-volumes:
- sqlitedatavolume/sqlitedata.db:
+    - /code/app/sqlitedata.db:/code/app/sqlitedata.db
