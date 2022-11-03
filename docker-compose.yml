@@ -8,4 +8,4 @@ services:
     - sqlitedatavolume/sql-app.db:/code/app/sql-app.db
 
 volumes:
- sqlitedatavolume:
+ sqlitedatavolume/sql-app.db:
